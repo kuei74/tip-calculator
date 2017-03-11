@@ -14,6 +14,9 @@
 		A8A388841E71BA0D00396BAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8A388821E71BA0D00396BAE /* LaunchScreen.storyboard */; };
 		A8A3888F1E71BA0D00396BAE /* TipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A3888E1E71BA0D00396BAE /* TipCalculatorTests.swift */; };
 		A8A3889A1E71BA0D00396BAE /* TipCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A388991E71BA0D00396BAE /* TipCalculatorUITests.swift */; };
+		A8A388AA1E726A5900396BAE /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A388A91E726A5800396BAE /* SettingsViewController.swift */; };
+		A8A388AC1E732B1600396BAE /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = A8A388AB1E732B1600396BAE /* background.png */; };
+		A8A388AE1E73D18E00396BAE /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = A8A388AD1E73D18E00396BAE /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		A8A388951E71BA0D00396BAE /* TipCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8A388991E71BA0D00396BAE /* TipCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorUITests.swift; sourceTree = "<group>"; };
 		A8A3889B1E71BA0D00396BAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8A388A91E726A5800396BAE /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = TipCalculator/SettingsViewController.swift; sourceTree = SOURCE_ROOT; };
+		A8A388AB1E732B1600396BAE /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = ../../../../Downloads/background.png; sourceTree = "<group>"; };
+		A8A388AD1E73D18E00396BAE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,7 @@
 		A8A3886D1E71BA0D00396BAE = {
 			isa = PBXGroup;
 			children = (
+				A8A388AD1E73D18E00396BAE /* README.md */,
 				A8A388781E71BA0D00396BAE /* TipCalculator */,
 				A8A3888D1E71BA0D00396BAE /* TipCalculatorTests */,
 				A8A388981E71BA0D00396BAE /* TipCalculatorUITests */,
@@ -97,6 +104,8 @@
 		A8A388781E71BA0D00396BAE /* TipCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				A8A388A91E726A5800396BAE /* SettingsViewController.swift */,
+				A8A388AB1E732B1600396BAE /* background.png */,
 				A8A388791E71BA0D00396BAE /* AppDelegate.swift */,
 				A8A3887B1E71BA0D00396BAE /* ViewController.swift */,
 				A8A3887D1E71BA0D00396BAE /* Main.storyboard */,
@@ -233,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8A388841E71BA0D00396BAE /* LaunchScreen.storyboard in Resources */,
+				A8A388AC1E732B1600396BAE /* background.png in Resources */,
 				A8A388811E71BA0D00396BAE /* Assets.xcassets in Resources */,
 				A8A3887F1E71BA0D00396BAE /* Main.storyboard in Resources */,
 			);
@@ -261,6 +271,8 @@
 			files = (
 				A8A3887C1E71BA0D00396BAE /* ViewController.swift in Sources */,
 				A8A3887A1E71BA0D00396BAE /* AppDelegate.swift in Sources */,
+				A8A388AE1E73D18E00396BAE /* README.md in Sources */,
+				A8A388AA1E726A5900396BAE /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
